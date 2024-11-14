@@ -1,3 +1,7 @@
 .first-class {
   color: red;
 }
+
+p[draggable] {
+  color: teal;
+}
