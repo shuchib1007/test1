@@ -13,5 +13,5 @@ p[draggable] {
 .square {
   height: 200px;
   width: 200px;
-  background-color: #555;
+  background-color: red;
 }
