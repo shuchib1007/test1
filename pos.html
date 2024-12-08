@@ -9,17 +9,22 @@
         .rect{
             background-color: purple;
             position: absolute;
-            width: 240px;
-            height: 140px;
+            width: 440px;
+            height: 240px;
         }
         .circle{
             background-color: peru;
+            position: absolute;
             border-radius: 50%;
-            position: relative;
             width: 200px;
             height: 200px;
-            margin-left: 250px;
-            margin-top: 150px;
+            margin-left: 200px;
+            margin-top: 120px;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            transform: translateX(140);
+            transition-duration: initial;
+            transform-origin: 0%;
+            transition: all;
             z-index: 1;
         }
     </style>
